@@ -196,6 +196,7 @@ button {
   }
 }
 
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -218,17 +219,22 @@ button {
   margin-top: 2.5%;
 }
 
+.re-inactive {
+  border: 2px solid white;
+}
+
 #display-again {
-  height: auto;
+  padding: 2%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding-left: 2rem;
   color: white;
   font-size: 25px;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .strong {
@@ -242,4 +248,13 @@ button {
 .p-re-design {
   font-size: 19px;
   color: darkgray;
+}
+
+.margin-gap {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.margin-re-gap {
+  margin-bottom: 2%;
 }
