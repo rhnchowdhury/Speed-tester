@@ -195,3 +195,25 @@ button {
     flex-direction: column;
   }
 }
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nav-btn {
+  position: absolute;
+  right: 15%;
+  text-decoration: none;
+  font-weight: bold;
+  width: 120px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #9dffad;
+  transform: translateY(-50%);
+  margin-top: 2.5%;
+}
