@@ -5,6 +5,10 @@ const countdownOverlay = document.getElementById("countdown");
 const resultModal = document.getElementById("result");
 const modalBackground = document.getElementById("modal-background");
 
+window.onkeydown = function (e) {
+  return !(e.keyCode == 32);
+};
+
 // variables
 let userText = "";
 let errorCount = 0;
@@ -68,7 +72,7 @@ const gameOver = () => {
   // the current time is the finish time
   // so total time taken is current time - start time
   const finishTime = new Date().getTime();
-  const timeTaken = (finishTime - startTime) / 1000;
+  const timeTaken = parseInt((finishTime - startTime) / 1000);
 
   // show result modal
   resultModal.innerHTML = "";
@@ -119,7 +123,7 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
-      countdownOverlay.innerHTML = ''; s
+      countdownOverlay.innerHTML = '';
     }
     count--;
   }, 1000);
