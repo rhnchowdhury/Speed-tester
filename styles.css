@@ -217,3 +217,29 @@ button {
   transform: translateY(-50%);
   margin-top: 2.5%;
 }
+
+#display-again {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 5rem;
+  color: white;
+  font-size: 25px;
+  background-color: #171717;
+  border: 2px solid #9dffad;
+  border-radius: 15px;
+}
+
+.strong {
+  color: lightgreen;
+}
+
+.p-design {
+  font-size: 19px;
+}
+
+.p-re-design {
+  font-size: 19px;
+  color: darkgray;
+}
